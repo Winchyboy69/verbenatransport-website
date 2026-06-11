@@ -76,17 +76,6 @@ textarea:focus-visible {
   outline-offset: 2px;
 }
 
-/* ── Brand mark ── */
-.brand-mark {
-  width: 44px;
-  height: 44px;
-  flex-shrink: 0;
-}
-
-.petal-navy   { fill: var(--navy); }
-.petal-orange { fill: var(--orange); }
-.petal-grey   { fill: var(--grey-light); }
-
 /* ── Header ── */
 .site-header {
   position: fixed;
@@ -824,7 +813,14 @@ form {
   border-bottom: 1px solid var(--line-dark);
 }
 
-.site-footer .petal-navy { fill: rgba(255, 255, 255, 0.85); }
+.footer-logo {
+  height: 48px;
+  width: auto;
+  display: block;
+  background: var(--white);
+  border-radius: 10px;
+  padding: 5px 11px;
+}
 
 .footer-brand p {
   margin-top: 1rem;
